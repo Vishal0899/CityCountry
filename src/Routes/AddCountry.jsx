@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addCountry } from "../Redux/City-Country/action";
-
+import "./AddCity.css";
 export const AddCountry = () => {
   const [name, setName] = useState("");
   const dispatch = useDispatch();
@@ -11,7 +11,7 @@ export const AddCountry = () => {
   };
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form className="form" onSubmit={handleSubmit}>
         <input
           type="text"
           value={name}

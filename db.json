@@ -2,33 +2,51 @@
   "city": [
     {
       "id": 1,
-      "name": "Lucknow",
-      "population": 8654356,
-      "country": []
-    },
-    {
-      "name": "Delhi",
-      "population": "7654356",
-      "country": "",
-      "id": 2
-    },
-    {
-      "name": "Pune",
-      "population": "7865432",
-      "country": {
-        "id": 1,
-        "name": "India"
-      },
-      "id": 4
-    },
-    {
       "name": "Nashik",
-      "population": "50000",
-      "country": {
-        "id": 1,
-        "name": "India"
-      },
-      "id": 8
+      "population": 8654356,
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "name": "Mumbai",
+      "population": 568997,
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "name": "New York",
+      "population": "568997",
+      "country": "America"
+    },
+    {
+      "id": 2,
+      "name": "Berlin",
+      "population": "568997",
+      "country": "Germany"
+    },
+    {
+      "id": 2,
+      "name": "Chicago",
+      "population": "568997",
+      "country": "America"
+    },
+    {
+      "id": 2,
+      "name": "Rome",
+      "population": "568997",
+      "country": "Italy"
+    },
+    {
+      "id": 2,
+      "name": "Hamburg",
+      "population": "4564789",
+      "country": "Germany"
+    },
+    {
+      "id": 2,
+      "name": "Turin",
+      "population": "354891",
+      "country": "Italy"
     }
   ],
   "country": [
@@ -37,12 +55,40 @@
       "name": "India"
     },
     {
-      "name": "France",
-      "id": 2
+      "id": 2,
+      "name": "America"
     },
     {
-      "name": "India",
-      "id": 3
+      "id": 3,
+      "name": "Germany"
+    },
+    {
+      "id": 4,
+      "name": "Russia"
+    },
+    {
+      "id": 5,
+      "name": "Vietnam"
+    },
+    {
+      "id": 6,
+      "name": "Italy"
+    },
+    {
+      "id": 7,
+      "name": "France"
+    },
+    {
+      "id": 8,
+      "name": "Australia"
+    },
+    {
+      "name": "",
+      "id": 9
+    },
+    {
+      "name": "thailand",
+      "id": 10
     }
   ]
 }
